@@ -6,22 +6,24 @@
     <title>Rounak - DevOps Engineer Portfolio</title>
     <style>
         body {
-            background-color: #f0f2f5; /* A light, professional gray */
+            background-color: #ADD8E6; /* Light Blue */
             font-family: Arial, sans-serif;
             display: flex;
+            flex-direction: column; /* Arrange items vertically */
             justify-content: center;
             align-items: center;
-            height: 100vh; /* This makes the body take up the full height of the viewport */
+            min-height: 100vh;
             margin: 0;
+            color: #333; /* Dark text for better contrast on blue */
         }
 
         .name-container {
             text-align: center;
+            margin-bottom: 20px;
         }
 
         h1 {
-            font-size: 5rem; /* A large, impactful font size for the name */
-            color: #333;
+            font-size: 5rem;
             margin: 0;
             text-transform: uppercase;
             letter-spacing: 5px;
@@ -30,10 +32,18 @@
 
         .job-title {
             font-size: 1.5rem;
-            color: #666;
             margin-top: 10px;
             text-transform: uppercase;
             letter-spacing: 2px;
+        }
+
+        .projects-container {
+            text-align: center;
+        }
+
+        .project-item {
+            font-size: 1.2rem;
+            margin: 5px 0;
         }
     </style>
 </head>
@@ -41,6 +51,14 @@
     <div class="name-container">
         <h1>Rounak</h1>
         <p class="job-title">DevOps Engineer</p>
+    </div>
+
+
+    <div class="projects-container">
+        <h2>DevOps Projects</h2>
+        <p class="project-item">GIT</p>
+        <p class="project-item">Jenkins</p>
+        <p class="project-item">AWS Project</p>
     </div>
 </body>
 </html>
